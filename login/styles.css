@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+html,
+body {
+    overflow: hidden;
+}
+
+.login-form h2,
+.additional-options,
+.forgot-password {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 5;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    
+    padding: 10px;
+   width: 5%;
+   text-align: center;
+  
+}
+
+.home-button {
+    color: #f0f0f0; /* Green color */
+    text-decoration: none;
+    font-size: 18px; /* Adjust the font size as needed */
+    padding: 12px 24px; /* Adjust padding as needed */
+    background-color: #006E5A; /* Background color */
+    border: 2px solid; /* Border */
+    border-radius: 13px; /* Rounded corners */
+    text-align: center;
+    display: inline-flex;
+}
+.home-button i {
+    margin-right: 5px; /* Add space between icon and text */
+    margin-top: 4px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-top: -55px; /* Adjust the margin-top as needed */
+}
+
+
+.left-image {
+    width: 350px; /* Adjust as needed */
+    margin-right: 50px; /* Adjust as needed */
+}
+
+.login-form {
+    background-color: white;
+    padding: 60px;
+    border-radius: 3px;
+    border: 1px solid rgba(128, 126, 126, 0.26);
+}
+
+.login-form h2 {
+    font-size: 30px;
+    margin-top: -15px;
+   color: #104362;
+    
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-form button {
+    width: 115%;
+    padding: 10px;
+     background-color: #006E5A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #555;
+}
+.additional-options {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+.additional-options label {
+    display: flex;
+    align-items: center; /* Align the text vertically with the checkbox */
+        
+}
+
+.additional-options label input {
+    margin-right: 5px; /* Add some space between the checkbox and text */
+}
+
+.forgot-password {
+    font-size: 14px;
+    color: midnightblue;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+.input-container {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.input-container i {
+    position: absolute;
+    left: 10px;
+    top: 25%; /* Adjust the top position as needed */
+    color: #ccc;
+}
+
+
+.input-container input {
+    padding-left: 30px; /* Adjust based on icon size */
+}
+
+
+.logbutt{
+    text-decoration: none;
+    color:inherit;
+}
+
+
+.logo12{
+    position: absolute;
+margin-top: -180px;
+left: 935px;
+width: 65px;
+height: 60px;
+}

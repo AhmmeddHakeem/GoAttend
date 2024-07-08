@@ -1,0 +1,230 @@
+.semester ,.month ,.last-lecture, .logout, .backtext {
+    position: relative;
+}
+
+.button3, .button4 , .button5{
+    flex-direction: row;
+    display: flex;
+    height: 45px;
+    width: 9%;
+    position: relative;
+    background-color: transparent;
+    cursor: pointer;
+    border: 2px solid #104362;
+    overflow: hidden;
+    border-radius: 10px;
+    color: #104362;
+    transition: all 0.5s ease-in-out;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+
+}
+
+.last-lecture , .month , .semester ,.download {
+    z-index: 1;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.type3::after , .type4::after , .type5::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 0.5s ease-in-out;
+    background-color: #104362;
+    border-radius: 30px;
+    visibility: hidden;
+    height: 10px;
+    width: 10px;
+    z-index: -1;
+}
+.button3:hover , .button4:hover , .button5:hover{
+    box-shadow: 1px 1px 200px #252525;
+    color: #fff;
+    border: none;
+}
+
+.type3:hover::after , .type4:hover::after , .type5:hover::after {
+    visibility: visible;
+    transform: scale(100) translateX(2px);
+}
+
+
+
+.time {
+    display: flex;
+    gap: 5px; /* Adjust the space between elements as needed */
+}
+
+
+.right-arrow-icon {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    position: relative;
+}
+
+.back {
+    position: fixed; /* Use fixed to keep it at the right side even on scrolling */
+    right: 6px; /* Align to the right edge of the viewport */
+    top: 6px; /* You can adjust this to set vertical position */
+    border-radius: 10px;
+    background-color: #104362;
+    width: 8%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 18px;
+    color: #fff;
+    font-family: Inter;
+    height: 45px;
+    gap: 5px;
+    z-index: 1000; /* Ensure it's on top of other elements if needed */
+}
+
+.info-table {
+    width: 100%; /* Adjust width as needed */
+    border-collapse: collapse;
+    font-family: 'Inter', sans-serif;
+    margin: -75px 0 10px 0;
+}
+
+.info-table th, .info-table td {
+    border: 1px solid #ddd; /* Light grey border */
+    padding: 8px;
+    text-align: left;
+}
+
+.info-table th {
+    background-color: #006E5A;
+    color: #fff;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.info-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.info-table tr:hover {
+    background-color: #ddd;
+}
+
+
+.abutt{
+    text-decoration: none;
+    color: inherit;
+}
+
+.info-table tbody tr td {
+    text-align: center;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+
+/*Download*/
+.button {
+    top:590px;
+    left: 1380px;
+    height: 45px;
+    width: 9%;
+    position: relative;
+    background-color: transparent;
+    cursor: pointer;
+    border: 2px solid #104362;
+    overflow: hidden;
+    border-radius: 10px;
+    color: #104362;
+    transition: all 0.5s ease-in-out;
+}
+
+
+.type1::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 0.5s ease-in-out;
+    background-color: #104362;
+    border-radius: 30px;
+    visibility: hidden;
+    height: 10px;
+    width: 10px;
+    z-index: -1;
+}
+
+.button:hover {
+    box-shadow: 1px 1px 200px #252525;
+    color: #fff;
+    border: none;
+}
+
+.type1:hover::after {
+    visibility: visible;
+    transform: scale(100) translateX(2px);
+}
+
+
+
+/*logout*/
+.button2 {
+    top:635px;
+    height: 45px;
+    width: 9%;
+    position: relative;
+    background-color: transparent;
+    cursor: pointer;
+    border: 2px solid #104362;
+    overflow: hidden;
+    border-radius: 10px;
+    color: #104362;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn-txt2 {
+    z-index: 1;
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+
+.type2::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 0.5s ease-in-out;
+    background-color: #104362;
+    border-radius: 30px;
+    visibility: hidden;
+    height: 10px;
+    width: 10px;
+    z-index: -1;
+}
+
+.button2:hover {
+    box-shadow: 1px 1px 200px #252525;
+    color: #fff;
+    border: none;
+}
+
+.type2:hover::after {
+    visibility: visible;
+    transform: scale(100) translateX(2px);
+}
+
+.logo{
+    position: absolute;
+    top: 680px;
+    left: 745px;
+    width: 65px;
+    height: 60px;
+}

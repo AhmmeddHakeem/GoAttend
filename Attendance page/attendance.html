@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, width=device-width">
+    <link rel="stylesheet" href="attendstyle.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" />
+    <style>
+        .time div,.download {
+            cursor: pointer;
+        }
+    </style>
+    <title>Attendance Page</title>
+    <link rel="icon" href="../Logo/GoAttend.png" type="image/x-icon"/>
+</head>
+<body>
+
+    <div class="time">
+            <button class="button3 type3">
+                <span class="last-lecture">Last Lecture</span>
+              </button>
+            <button class="button4 type4">
+                <span class="month">Month</span>
+              </button>
+            <button class="button5 type5">
+                <span class="semester">Semeseter</span>
+              </button>
+    </div>
+    <div class="back" id="dateContainer">
+        <img class="right-arrow-icon" alt="" src="img/Right Arrow.png">
+        <a href="../Main Page/main_page.html" class="abutt">
+        <div class="backtext">Back</div>
+        </a>
+    </div>
+    
+    <div class="logoutmain" id="dateContainer">
+        <a href="../login/index.html" class="abutt">
+            <button class="button2 type2">
+                <span class="btn-txt2">Logout</span>
+              </button>
+              
+        </a>
+    </div>
+
+    <div class="downloadmain">
+        <button class="button type1">
+            <span class="download">Download</span>
+          </button>
+               
+    </div>
+    
+
+    <table class="info-table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Date</th>
+                <th>Time</th>
+            </tr>
+        </thead>
+        <tbody id="table-body">
+            <!-- Dynamic content will be inserted here -->
+        </tbody>
+    </table>
+
+
+    <img src="../Logo/GoAttend.png" class="logo">
+
+    <script src="attendscript.js"></script>
+</body>
+</html>

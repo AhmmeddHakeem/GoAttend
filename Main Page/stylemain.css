@@ -1,0 +1,236 @@
+.container {
+    position: relative;
+    --bg: radial-gradient(#000 5%, #0000 6%);
+    --size: 3rem;
+    width: 100%;
+    height: 100%;
+    /* Add your background pattern here */
+    /* background-color: lightblue; */
+    background-image: radial-gradient(#000 5%, #0000 6%),
+      radial-gradient(#000 5%, #0000 6%);
+    background-position: 0 0, calc(var(--size) / 2) calc(var(--size) / 2);
+    background-size: var(--size) var(--size);
+  }
+  
+
+.schedule {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    margin-top: 100px;
+    z-index: 1;
+}
+
+.day {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.time {
+    min-width: 70px;
+    padding: 10px 20px;
+    background-color: #e8e8e8;
+    color: #666;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.current-time {
+    flex-grow: 1;
+    padding: 10px 20px;
+    background-color: #e8e8e8;
+    color: #666;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+.task {
+    flex-grow: 0;
+    width: 645px;
+    padding: 10px 20px;
+    color: white;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.ui-animation {
+    margin-left: 660px;
+}
+
+.ux-research {
+    border: 1px solid #8A2BE2;
+    color: #8A2BE2;
+    background-color: white;
+}
+
+.ux-research:hover {
+    color: white;
+    background-color: #7a1fc9;
+}
+
+.ui-animation {
+    border: 1px solid #00a7e1;
+    color: #00a7e1;
+    background-color: white;
+}
+
+.ui-animation:hover {
+    color: white;
+    background-color: #00a7e1;
+}
+
+#how-it-works-inner,
+#how-it-works-item,
+#how-it-works-item1 {
+    position: absolute;
+    border-radius: 50%;
+    border: 31.6px solid;
+    box-sizing: border-box;
+    width: 150px;
+    height: 150px;
+    z-index: 0;
+}
+
+#how-it-works-inner {
+    top: 125px;
+    left: 512px;
+    border-color: #006e5a;
+}
+
+#how-it-works-item {
+    top: 510px;
+    left: 1165px;
+    border-color: #ff6250;
+}
+
+#how-it-works-item1 {
+    top: 510px;
+    left: 1165px;
+    border-color: #e6c600;
+}
+
+.name {
+    position: absolute;
+    top: 20px;
+    left: calc(50% + 545px);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 25px;
+    color: #000;
+    font-family: Inter;
+    margin-left: -6px;
+}
+
+.date {
+    position: absolute;
+    border-radius: 20px;
+    background-color: #104362;
+    top: 680px;
+    width: 7%;
+    height: 48px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: Inter;
+    font-size: 23px;
+    color: white;
+}
+.home-page-icon {
+    width: 25px;
+    position: relative;
+    height: 25px;
+    object-fit: cover;
+}
+.home {
+    top: 10px;
+    position: absolute;
+    border-radius: 15px;
+    background-color: #006e5a;
+    width: 7%;
+    height: 45px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 0px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: Inter;
+    font-size: 18px;
+    color: white;
+}
+.social-icons {
+    position: absolute;
+    top: 15px;
+    left: 1460px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.current-time12 {
+    text-align: center;
+    margin: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.img{
+    position: absolute;
+    height: 56.99%;
+    width: 21.54%;
+    top: 42.29%;
+    right: 70.83%;
+    bottom: 23.72%;
+    left: 30.62%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+
+.programming{
+        margin-left: 660px;
+}
+
+.programming {
+    border: 1px solid #e6c600;
+    color: #e6c600;
+    background-color: white;
+}
+
+.programming:hover {
+    color: white;
+    background-color: #e6c600;
+}
+
+
+.abutt{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.logo{
+    position: absolute;
+    margin-top: 157px;
+    left: 745px;
+    width: 65px;
+    height: 60px;
+}
